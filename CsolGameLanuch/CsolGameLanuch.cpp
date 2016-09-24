@@ -78,14 +78,14 @@ int main(int argc, char ** argv)
 	int service = 0;
 	SetConsoleTitleA("CsolGameLaunchTools\n");
 
-	/*if (argc < 2)
+	if (argc < 2)
 	{
 		printf("Game Service：1~5\n");
 		printf("1.电信一区 2.电信二区.....\n");
 		return 0;
 	}
 
-	service = atoi(argv[1]);*/
+	service = atoi(argv[1]);
 
 	printf("%d\n",service);
 	CsolGameLaunch(4, "lala");
